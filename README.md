@@ -23,8 +23,10 @@ This Python project, named `fuel_price_notification.py`, is hosted on PythonAnyw
 ## Setup
 1. Clone the repository and navigate to the project directory.
 2. Install required Python packages:
+   
 `pip install datetime pytz requests beautifulsoup4 openai boto3 numpy statistics`
-4. Ensure you have the necessary API keys and credentials configured in the `config.py` file:
+
+3. Ensure you have the necessary API keys and credentials configured in the `config.py` file:
 - OpenAI API Key
 - Pushover Application Token
 - AWS Access Keys for DynamoDB interactions
